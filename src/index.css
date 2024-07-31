@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-main: "League Spartan", sans-serif;
+    --font-bold: 700;
+
+    --leading-none: 1;
+  }
+
+  body {
+    line-height: var(--leading-none);
+    font-family: var(--font-bold);
+    font-weight: var(--font-bold);
+  }
+}
